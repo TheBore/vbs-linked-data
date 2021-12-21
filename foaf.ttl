@@ -1,0 +1,30 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://njh.me/>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://njh.me/#me> ;
+  foaf:primaryTopic <http://njh.me/#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Boris Nikolovski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Boris" ;
+  foaf:family_name "Nikolovski" ;
+  foaf:nick "Bore" ;
+  foaf:mbox_sha1sum "c49e9630e1756b125a4eb74f7993e8e866f918a1" ;
+  foaf:homepage <https://www.instagram.com/thebore99/> ;
+  foaf:phone <tel:070829121> ;
+  foaf:workplaceHomepage <https://www.linkedin.com/in/boris-nikolovski-8025251a8> ;
+  foaf:workInfoHomepage <https://www.linkedin.com/in/boris-nikolovski-8025251a8> ;
+  foaf:schoolHomepage <https://orcenikolov.edu.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Boris" ;
+    foaf:mbox_sha1sum "75f09eff8565488952569b791775d62435e505f0" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/99KarolinaA/WBS/main/foaf.ttl>
+  ] .
